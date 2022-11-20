@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>EJERCICIO 1</h1>
+    <hr>
+    <img src="1.jpg" alt="" class="imagen">
+    <br><br>
+
+    <div class="respuesta">
+        <label for="">Digite un angulo  para  x: </label>
+        <br><br>
+        <input type="text" id=x placeholder="Angulo x">
+        
+        <button onclick="identidad()">EVALUAR</button>
+        <h2>Para el inciso a: </h2>
+                
+        <h2>Respuesta</h2>
+        <div id="respa"></div>
+    </div>
+
+    <div class="respuesta">
+        <h2>Para el inciso b: </h2>
+               
+        <h2>Respuesta</h2>
+        <div id="respb"></div>
+    </div>
+
+    <h1>EJERCICIO 2</h1>
+    <hr>
+    <img src="2.jpg" class="imagen">
+    <br><br>
+    <div class="respuesta">
+        <label for="">Introdusca un valor para alpha: </label>
+        <br>
+        <input type="text" id="alphanum" placeholder="Valor de alpha numerador">
+        <input type="text" id="alphaden" placeholder="valor de alpha denominador">
+        <br>
+        <label for="">Introdusca un valor para beta: </label>
+        <br>
+        <input type="text" id="betanum" placeholder="valor de beta numerador">
+        <input type="text" id="betaden" placeholder="valor de beta denominador">
+        <br>
+        <button onclick="evaluar()">EVALUAR</button>
+        <h2>RESPUESTA</h2>
+        <div id="respuesta"></div>
+    </div>
+    
+    <h1> EJERCICIO 3</h1>
+    <hr>    
+    <img src="3.jpg" alt="" class="imagen">
+    <br><br>
+    <div class="respuesta">
+        <label for="">Introdusca un valor para a :</label>
+        <input type="text" id="a" placeholder="valor de 'a' en pulgadas">
+        <br>
+        <label for="">Introdusca un valor para b :</label>
+        <input type="text" id="b" placeholder="valor de 'b' en pulgadas">
+        <br>
+        <button onclick="calcular()">CALCULAR</button>
+        <h2>RESPUESTA</h2>
+        <div id="resp"></div>
+
+    </div>
+
+    <h1>EJERCICIO 4</h1>
+    <hr>
+    <img src="4.jpg" class="imagen">
+    <br><br>
+    <div class="respuesta">
+        <label for="">Introducir un numero para calcular la raiz cubica:</label>
+        <input type="text" id="P" placeholder="valor de P">
+        <br>
+        <button onclick="cubico()">CALCULAR</button>
+        <h2>RESPUESTA</h2>
+        <div id="respu"></div>
+    </div>
+
+    <h1>EJERCICIO 5</h1>
+    <hr>
+    <img src="5.jpg" class="imagen">
+    <br><br>
+    <div class="respuesta">
+        <label for="">INTRODUCIR EL TIEMPO ESTIMADO APRA CALCULAR EL CP </label>
+        <br><br>
+        <input type="text" id="ta" placeholder="Tiempo para el inciso a">
+        <input type="text" id="tb" placeholder="Tiempo para el inciso b">
+        
+        <button onclick="tiempo()">EVALUAR</button>
+        <h2>Para el inciso a: </h2>
+                
+        <h2>Respuesta</h2>
+        <div id="respt"></div>
+    </div>
+
+    <div class="respuesta">
+        <h2>Para el inciso b: </h2>
+               
+        <h2>Respuesta</h2>
+        <div id="resptb"></div>
+    </div>
+
+</body>
+<script src="Identidades.js"></script>
+</html>
